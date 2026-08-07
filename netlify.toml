@@ -1,10 +1,10 @@
 [build]
 command = "npm run build"
-functions = "netlify/functions"
-publish = "dist/public"
+publish = ".output/public"
 
 [build.environment]
 NODE_VERSION = "20"
+NITRO_PRESET = "netlify"
 
 [[redirects]]
 from = "/*"
