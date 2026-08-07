@@ -5,8 +5,6 @@ publish = "dist/public"
 
 [build.environment]
 NODE_VERSION = "20"
-NODE_ENV = "production"
-NITRO_PRESET = "netlify"
 
 [[redirects]]
 from = "/*"
