@@ -1,12 +1,12 @@
 [build]
 command = "npm run build"
 publish = ".output/public"
-functions = ".output/server"
 
 [build.environment]
 NODE_VERSION = "20"
+NITRO_PRESET = "static"
 
 [[redirects]]
 from = "/*"
-to = "/.netlify/functions/index"
+to = "/index.html"
 status = 200
